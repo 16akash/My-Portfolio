@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "https://kit.fontawesome.com/3699cecfd4.js" crossorigin  ="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div><img src="images/logo.gif"alt="" class="logo"></div>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class=" fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi, I'm <span>Akash</span> Kumar<br>from India</h1>
+            </div>
+
+        </div>
+    </div>
+    <!-- about section -->
+    <div id="about">
+     <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user1.png" alt="userimage">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                 <p>Hello, My Name is Akash Kumar,And I am persuing B.tech In 
+                    Electronics and Communication Engineering at Punjab Technical University,Jalandhar.
+                    I have strong foundation in programming language such as c++ and python.And I am proficient
+                    in web technologies such as html css and javascript.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Web Development</span><br>Web app Development</li>
+                            <li><span>C++ programming</span><br>Problem solving using c++</li>
+                            <li><span>Python Development</span><br>Python Developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>IOT -2months</span><br>Tata Technologies</li>
+                            <li><span>Web Development -1month</span><br>CodeClause</li>
+                            <li><span>Python Development</span><br>Coursera</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B.Tech(Ece), Punjab Technical University, Jalandhar</li>
+                            <li><span>schooling</span><br>Sarala Birla Public School</li>
+                            
+                        </ul>
+                    </div>
+            </div>
+        </div>
+     </div>
+    </div>
+    <!-- services -->
+    <div id ="services"> 
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-end Web Development</h2>
+                    <p>Hello! I'm a passionate and creative 
+                        Front-End Web Developer with a deep appreciation for crafting
+                         engaging and user-centric digital experiences.Proficient in HTML, CSS, and JavaScript,
+                          I specialize in transforming design concepts into responsive, visually appealing websites.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Development</h2>
+                    <p>
+                        Hello! I'm an aspiring Python enthusiast eager to explore the vast world of programming. My journey into the realm 
+                        of coding began with the fascination of Python's simplicity and versatility.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>C++ Programming Language</h2>
+                    <p>I am a dedicated and proficient programmer with a
+                         solid foundation in C++ and a keen understanding of Data Structures and Algorithms (DSA). My programming journey began with the exploration of C++, and I've since developed 
+                        a deep appreciation for its efficiency, versatility, and object-oriented principles.
+                        My experience extends to object-oriented programming (OOP), where I've leveraged 
+                        classes and inheritance to create organized and scalable software solutions.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!--portfolio  -->
+     <div class="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/mobile.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Tin-Dog website</h3>
+                        <p>Tin Dog is a charming website that combines the power of HTML
+                             and CSS to create a delightful online platform for our canine companions. 
+                             Designed with a playful aesthetic, Tin Dog allows dogs to set 
+                            up personalized profiles, showcasing their unique personalities and preferences
+                        </p>
+                        <a href="https://16akash.github.io/tindog/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/mobile1.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Bank Management system</h3>
+                        <p>he Bank Management System developed in 
+                            C++ with an object-oriented programming (OOP) approach. Leveraging the principles of encapsulation, 
+                            inheritance, and polymorphism, this system provides
+                             a robust and modular solution for handling diverse banking operations
+                        </p>
+                        <a href="https://github.com/16akash/Bank-Management-system/blob/main/bank/BANK_MANAGEMENT_SUSTEM.cpp"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/th.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Jarvis My-AI Assistant</h3>
+                        <p>Jarvis, the AI assistant, represents a cutting-edge advancement in artificial intelligence,
+                            It provides real-time information updates.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+
+     <!-- contact -->
+     <div class = "contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>ak951575@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9525592060</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100007111771924"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/the-akashkumar/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.hackerrank.com/profile/ak951575"><i class="fa-brands fa-hackerrank"></i></a>
+                        <a href="https://github.com/16akash"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/my_cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name"required>
+                        <input type="email" name="Email" placeholder="Your Email"required>
+                        <textarea name="Message"  rows="6" placeholder="Please type your message here."></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©️ akash. Made with 💚 by akash</p>
+        </div>
+     </div>
+
+
+<script>
+
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+
+   function opentab(tabname){
+      for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        //   classList return the DOM token list
+
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right  = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right  = "-200px";
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz2Qtq12WB6cnr7GQIiIO8sAcAe283gjRoqOfkrBJvFwG6Z91FdEo1XDeBhsXZImpWyHQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        } )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
