@@ -21,6 +21,9 @@ body{
     background-size:cover ;
     background-position: center;
 }
+#header .container{
+    border: 2px solid green;
+}
 
 .container{
     padding: 20px 50px;
@@ -30,6 +33,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 
 }
 .logo{
