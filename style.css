@@ -21,9 +21,9 @@ body{
     background-size:cover ;
     background-position: center;
 }
-#header .container{
+/* #header .container{
     border: 2px solid green;
-}
+} */
 
 .container{
     padding: 20px 50px;
